@@ -60,6 +60,14 @@ class TestIrUiViewMultiCompany(TransactionCase):
         self.view.company_ids = self.company_2
         self.assertTrue(self._is_company_field_is_in_form_view(self.company_2))
 
+    def test_website_inheriting_views_domain_is_valid(self):
+        from odoo.osv.expression import normalize_domain
+
+        website = self.env["website"].search([], limit=1)
+        view_model = self.env["ir.ui.view"].with_context(website_id=website.id)
+
+        normalize_domain(view_model._get_inheriting_views_domain())
+
     def test_3(self):
         """
         If the view is linked to company_1 and company_2, it should be visible to

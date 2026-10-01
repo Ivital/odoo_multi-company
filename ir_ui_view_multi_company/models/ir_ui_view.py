@@ -2,7 +2,6 @@
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
 from odoo import api, fields, models
-from odoo.osv.expression import AND
 
 
 class IrUiView(models.Model):
@@ -16,15 +15,9 @@ class IrUiView(models.Model):
 
     @api.model
     def _get_inheriting_views_domain(self):
-        domain = super()._get_inheriting_views_domain()
-        domain = domain if domain else []
-        return AND(
-            [
-                domain,
-                [
-                    "|",
-                    ("company_ids", "=", False),
-                    ("company_ids", "in", self.env.company.ids),
-                ],
-            ]
-        )
+        domain = list(super()._get_inheriting_views_domain() or [])
+        return domain + [
+            "|",
+            ("company_ids", "=", False),
+            ("company_ids", "in", self.env.company.ids),
+        ]
