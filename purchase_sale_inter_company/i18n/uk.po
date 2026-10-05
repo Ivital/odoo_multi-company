@@ -89,3 +89,52 @@ msgid ""
 msgstr ""
 "Якщо для цієї компанії правило мультикомпанії створює замовлення на продаж, "
 "воно буде автоматично підтверджене."
+
+#. module: purchase_sale_inter_company
+#. odoo-python
+#: code:addons/purchase_sale_inter_company/models/purchase_order_line.py:0
+msgid ""
+"The generated sale orders with reference %(orders)s can't be modified. "
+"They're either unconfirmed or locked for modifications."
+msgstr ""
+"Створені замовлення продажу з посиланням %(orders)s не можна змінювати. Вони"
+" або не підтверджені, або заблоковані для змін."
+
+#. module: purchase_sale_inter_company
+#. odoo-python
+#: code:addons/purchase_sale_inter_company/models/purchase_order.py:0
+msgid "The inter-company sales order has been created: %s"
+msgstr "Створено міжкомпанійне замовлення продажу: %s"
+
+#. module: purchase_sale_inter_company
+#. odoo-python
+#: code:addons/purchase_sale_inter_company/models/account_move.py:0
+msgid "This vendor bill is related with: %(origin)s"
+msgstr "Цей рахунок постачальника пов’язаний із: %(origin)s"
+
+#. module: purchase_sale_inter_company
+#. odoo-python
+#: code:addons/purchase_sale_inter_company/models/purchase_order_line.py:0
+msgid ""
+"You can't change this purchase order as the corresponding sale is %(state)s"
+msgstr ""
+"Не можна змінити це замовлення на закупівлю, оскільки відповідний продаж має"
+" стан %(state)s"
+
+#. module: purchase_sale_inter_company
+#. odoo-python
+#: code:addons/purchase_sale_inter_company/models/purchase_order_line.py:0
+msgid "You cannot create SO from PO because product '%s' is not intercompany"
+msgstr ""
+"Не можна створити замовлення продажу із закупівлі, оскільки товар «%s» не є "
+"міжкомпанійним"
+
+#. module: purchase_sale_inter_company
+#. odoo-python
+#: code:addons/purchase_sale_inter_company/models/purchase_order.py:0
+msgid ""
+"You cannot create SO from PO because sale price list currency is different "
+"than purchase price list currency."
+msgstr ""
+"Не можна створити замовлення продажу із замовлення на закупівлю, оскільки "
+"валюта прайс-листа продажу відрізняється від валюти прайс-листа закупівлі."

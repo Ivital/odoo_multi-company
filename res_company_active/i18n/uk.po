@@ -17,3 +17,25 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:res_company_active.view_res_company_form
 msgid "Archived"
 msgstr "Архівовано"
+
+#. module: res_company_active
+#. odoo-python
+#: code:addons/res_company_active/models/res_company.py:0
+msgid ""
+"You can not disable the company %(company_name)s because it is the current company for the following active users:\n"
+"\n"
+" - %(user_names)s\n"
+"\n"
+" Please change the company of these users, or disable them"
+msgstr ""
+"Не можна вимкнути компанію %(company_name)s, оскільки вона є поточною компанією для таких активних користувачів:\n"
+"\n"
+" - %(user_names)s\n"
+"\n"
+" Змініть компанію цих користувачів або вимкніть їх."
+
+#. module: res_company_active
+#. odoo-python
+#: code:addons/res_company_active/models/res_company.py:0
+msgid "You can not disable the current company."
+msgstr "Не можна вимкнути поточну компанію."
