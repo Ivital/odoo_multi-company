@@ -80,3 +80,61 @@ msgstr "Автоматична перевірка рахунків"
 #: model:ir.model.fields,field_description:account_invoice_inter_company.field_account_move_line__auto_invoice_line_id
 msgid "Source Invoice Line"
 msgstr "Початковий рядок рахунку"
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,help:account_invoice_inter_company.field_res_config_settings__intercompany_invoicing
+msgid ""
+"Enable intercompany invoicing: \n"
+" * Generate a Customer Invoice when a bill with this company is created.\n"
+" * Generate a Vendor Bill when an invoice with this company as a customer is created."
+msgstr ""
+"Увімкнути міжкомпанійне виставлення рахунків: \n"
+" * Створювати рахунок клієнту, коли створено рахунок постачальника з цією компанією.\n"
+" * Створювати рахунок постачальника, коли створено рахунок із цією компанією як клієнтом."
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,help:account_invoice_inter_company.field_res_company__intercompany_invoicing
+msgid ""
+"Enable intercompany invoicing: \n"
+"* Generate a Customer Invoice when a bill with this company is created.\n"
+"* Generate a Vendor Bill when an invoice with this company as a customer is created."
+msgstr ""
+"Увімкнути міжкомпанійне виставлення рахунків: \n"
+"* Створювати рахунок клієнту, коли створено рахунок постачальника з цією компанією.\n"
+"* Створювати рахунок постачальника, коли створено рахунок із цією компанією як клієнтом."
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,help:account_invoice_inter_company.field_res_company__intercompany_invoice_user_id
+msgid ""
+"Responsible user for creation of invoices triggered by intercompany rules."
+msgstr ""
+"Відповідальний користувач за створення рахунків, ініційованих міжфірмовими "
+"правилами."
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,help:account_invoice_inter_company.field_res_config_settings__intercompany_invoice_user_id
+msgid ""
+"Responsible user for creation of invoices triggered by intercompany rules. "
+"If not set the user initiating thetransaction will be used"
+msgstr ""
+"Відповідальний користувач за створення рахунків, ініційованих "
+"міжкомпанійними правилами. Якщо не задано, використовуватиметься користувач,"
+" який ініціював транзакцію."
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,help:account_invoice_inter_company.field_res_company__invoice_auto_validation
+msgid ""
+"When an invoice is created by a multi company rule for this company, it will"
+" automatically validate it"
+msgstr ""
+"Коли правило мультикомпанії створює рахунок для цієї компанії, він "
+"автоматично підтверджуватиметься"
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,help:account_invoice_inter_company.field_res_config_settings__invoice_auto_validation
+msgid ""
+"When an invoice is created by a multi company rule for this company, it will"
+" automatically validate it."
+msgstr ""
+"Коли правило мультикомпанії створює рахунок для цієї компанії, він "
+"автоматично підтверджуватиметься."

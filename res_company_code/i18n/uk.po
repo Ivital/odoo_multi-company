@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:res_company_code.field_res_company__code
 msgid "Code"
 msgstr "Код"
+
+#. module: res_company_code
+#: model:ir.model.constraint,message:res_company_code.constraint_res_company_code_uniq
+msgid "The company code must be unique !"
+msgstr "Код компанії має бути унікальним!"

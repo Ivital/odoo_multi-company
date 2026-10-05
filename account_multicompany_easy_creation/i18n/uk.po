@@ -229,3 +229,63 @@ msgstr "Оновити податки за замовчуванням"
 #: model_terms:ir.ui.view,arch_db:account_multicompany_easy_creation.wizard_multicompany_easy_creation_view_form
 msgid "Update default taxes"
 msgstr "Оновити податки за замовчуванням"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,help:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__smart_search_fiscal_position
+msgid ""
+"Go over partner fiscal positions in actual company to match and set "
+"equivalent fiscal positions in the new company."
+msgstr ""
+"Переглянути фіскальні позиції партнерів у поточній компанії, зіставити й "
+"установити еквівалентні позиції в новій компанії."
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,help:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__smart_search_product_tax
+msgid ""
+"Go over product taxes in actual company to match and set equivalent taxes in"
+" then new company."
+msgstr ""
+"Переглянути податки товару в поточній компанії, зіставити й установити "
+"еквівалентні податки в новій компанії."
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,help:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__smart_search_specific_account
+msgid ""
+"Go over specific accounts in actual company to match and set equivalent taxes in the new company.\n"
+"Applies to products, categories, partners, ..."
+msgstr ""
+"Перевірити певні рахунки поточної компанії, щоб зіставити та встановити еквівалентні податки в новій компанії.\n"
+"Застосовується до товарів, категорій, партнерів тощо."
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,help:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__force_purchase_tax
+msgid ""
+"Set default purchase tax to all products.\n"
+"If smart search product tax is also enabled matches founded will overwrite default taxes, but not founded will remain"
+msgstr ""
+"Встановити стандартний податок із закупівлі для всіх товарів.\n"
+"Якщо також увімкнено розумний пошук податку товару, знайдені збіги замінять стандартні податки, а за відсутності збігів стандартні податки залишаться."
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,help:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__force_sale_tax
+msgid ""
+"Set default sales tax to all products.\n"
+"If smart search product tax is also enabled matches founded will overwrite default taxes, but not founded will remain"
+msgstr ""
+"Встановити стандартний податок із продажу для всіх товарів.\n"
+"Якщо також увімкнено розумний пошук податку товару, знайдені збіги замінять стандартні податки, а за відсутності збігів стандартні податки залишаться."
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,help:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__update_default_taxes
+msgid "Update default taxes applied to local transactions"
+msgstr "Оновити типові податки для локальних транзакцій"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model,name:account_multicompany_easy_creation.model_account_multicompany_bank_wiz
+msgid "Wizard Account Multi-company Bank"
+msgstr "Майстер банку мультикомпанії"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model,name:account_multicompany_easy_creation.model_account_multicompany_easy_creation_wiz
+msgid "Wizard Account Multi-company Easy Creation"
+msgstr "Майстер простого створення мультикомпанії"

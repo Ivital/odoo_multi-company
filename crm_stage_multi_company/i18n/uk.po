@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm_stage_multi_company.field_crm_stage__company_id
 msgid "Company"
 msgstr "Компанія"
+
+#. module: crm_stage_multi_company
+#: model:ir.model.fields,help:crm_stage_multi_company.field_crm_stage__company_id
+msgid ""
+"Specific company that uses this stage. Other companies will not be able to "
+"see or use this stage."
+msgstr ""
+"Конкретна компанія, що використовує цей етап. Інші компанії не зможуть його "
+"бачити або використовувати."

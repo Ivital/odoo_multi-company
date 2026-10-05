@@ -17,3 +17,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:crm_lost_reason_multi_company.field_crm_lost_reason__company_id
 msgid "Company"
 msgstr "Компанія"
+
+#. module: crm_lost_reason_multi_company
+#: model:ir.model.fields,help:crm_lost_reason_multi_company.field_crm_lost_reason__company_id
+msgid ""
+"Company that uses this lost reason. Other companies will not be able to see "
+"or use it."
+msgstr ""
+"Компанія, що використовує цю причину втрати. Інші компанії не зможуть її "
+"бачити або використовувати."

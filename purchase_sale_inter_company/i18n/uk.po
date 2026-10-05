@@ -60,3 +60,32 @@ msgstr "Початкове замовлення на закупівлю"
 #: model:ir.model.fields,field_description:purchase_sale_inter_company.field_sale_order_line__auto_purchase_line_id
 msgid "Source Purchase Order Line"
 msgstr "Вихідний рядок замовлення закупівлі"
+
+#. module: purchase_sale_inter_company
+#: model:ir.model.fields,help:purchase_sale_inter_company.field_res_company__so_from_po
+#: model:ir.model.fields,help:purchase_sale_inter_company.field_res_config_settings__so_from_po
+msgid ""
+"Generate a Sale Order when a Purchase Order with this company as supplier is created.\n"
+" The intercompany user must at least be Sale User."
+msgstr ""
+"Створювати замовлення на продаж, коли створено замовлення на закупівлю з цією компанією як постачальником.\n"
+"Міжкомпанійний користувач повинен мати щонайменше права користувача продажів."
+
+#. module: purchase_sale_inter_company
+#: model:ir.model.fields,help:purchase_sale_inter_company.field_res_config_settings__intercompany_sale_user_id
+msgid ""
+"User used to create the sales order arising from a purchase order in another"
+" company."
+msgstr ""
+"Користувач, від імені якого створюється замовлення на продаж із замовлення "
+"на закупівлю в іншій компанії."
+
+#. module: purchase_sale_inter_company
+#: model:ir.model.fields,help:purchase_sale_inter_company.field_res_company__sale_auto_validation
+#: model:ir.model.fields,help:purchase_sale_inter_company.field_res_config_settings__sale_auto_validation
+msgid ""
+"When a Sale Order is created by a multi company rule for this company, it "
+"will automatically validate it."
+msgstr ""
+"Якщо для цієї компанії правило мультикомпанії створює замовлення на продаж, "
+"воно буде автоматично підтверджене."

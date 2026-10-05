@@ -76,3 +76,42 @@ msgstr "Склад для замовлень продажу"
 #: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_config_settings__warehouse_id
 msgid "Warehouse for Sale Orders"
 msgstr "Склад для замовлень продажу"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,help:purchase_sale_stock_inter_company.field_res_company__warehouse_id
+msgid ""
+"Default value to set on Sale Orders that will be created based on Purchase "
+"Orders made to this company"
+msgstr ""
+"Типове значення для замовлень на продаж, створених на основі замовлень на "
+"закупівлю для цієї компанії"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,help:purchase_sale_stock_inter_company.field_res_config_settings__warehouse_id
+msgid ""
+"Default value to set on Sale Orders that will be created based on Purchase "
+"Orders made to this company."
+msgstr ""
+"Типове значення для замовлень на продаж, створених на основі замовлень на "
+"закупівлю для цієї компанії."
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,help:purchase_sale_stock_inter_company.field_res_company__sync_picking_failure_action
+#: model:ir.model.fields,help:purchase_sale_stock_inter_company.field_res_config_settings__sync_picking_failure_action
+msgid "Pick action to perform on sync picking failure"
+msgstr "Виберіть дію при помилці синхронізації переміщення"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,help:purchase_sale_stock_inter_company.field_res_company__sync_picking
+#: model:ir.model.fields,help:purchase_sale_stock_inter_company.field_res_config_settings__sync_picking
+msgid ""
+"Sync the receipt from the destination company with the delivery from the "
+"source company"
+msgstr ""
+"Синхронізувати отримання в компанії-призначенні з доставкою з вихідної "
+"компанії"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,help:purchase_sale_stock_inter_company.field_res_config_settings__notify_user_id
+msgid "User to notify incase of sync picking failure."
+msgstr "Користувач для сповіщення у разі помилки синхронізації переміщення."

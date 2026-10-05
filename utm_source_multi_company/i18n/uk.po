@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:utm_source_multi_company.field_utm_source__company_id
 msgid "Company"
 msgstr "Компанія"
+
+#. module: utm_source_multi_company
+#: model:ir.model.constraint,message:utm_source_multi_company.constraint_utm_source_unique_name
+msgid "The name must be unique per company"
+msgstr "Назва має бути унікальною для кожної компанії"
