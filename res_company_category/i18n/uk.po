@@ -109,3 +109,8 @@ msgstr "Батьківська категорія"
 #: model:ir.model.fields.selection,name:res_company_category.selection__res_company_category__type__view
 msgid "View"
 msgstr "Перегляд"
+
+#. module: res_company_category
+#: model:ir.model.fields,field_description:res_company_category.field_res_company_category__company_qty
+msgid "Companies Quantity"
+msgstr "Кількість компаній"

@@ -135,3 +135,97 @@ msgstr "Послідовності"
 #: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__user_ids
 msgid "Users allowed"
 msgstr "Дозволені користувачі"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_bank_wiz__allow_out_payment
+msgid "Allow Out Payments"
+msgstr "Дозволити вихідні платежі"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__bank_ids
+msgid "Bank accounts to create"
+msgstr "Банківські рахунки для створення"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__default_purchase_tax
+msgid "Default Purchase Tax"
+msgstr "Податок закупівлі за замовчуванням"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__default_purchase_tax_options
+msgid "Default Purchase Tax Options"
+msgstr "Параметри податку закупівлі за замовчуванням"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__default_sale_tax_options
+msgid "Default Sale Tax Options"
+msgstr "Параметри податку з продажу за замовчуванням"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__default_sale_tax
+msgid "Default Sales Tax"
+msgstr "Податок із продажу за замовчуванням"
+
+#. module: account_multicompany_easy_creation
+#: model_terms:ir.ui.view,arch_db:account_multicompany_easy_creation.wizard_multicompany_easy_creation_view_form
+msgid "Fill company data"
+msgstr "Заповнити дані компанії"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__force_purchase_tax
+msgid "Force Purchase Tax In All Products"
+msgstr "Примусово встановити податок закупівлі для всіх товарів"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__force_sale_tax
+msgid "Force Sale Tax In All Products"
+msgstr "Примусово встановити податок продажу для всіх товарів"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__sequence_ids
+msgid "Sequences to create"
+msgstr "Послідовності для створення"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__smart_search_fiscal_position
+msgid "Smart Search Fiscal Position"
+msgstr "Розумний пошук схеми оподаткування"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__smart_search_product_tax
+msgid "Smart Search Product Tax"
+msgstr "Розумний пошук податку товару"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__smart_search_specific_account
+msgid "Smart Search Specific Account"
+msgstr "Розумний пошук певного рахунка"
+
+#. module: account_multicompany_easy_creation
+#: model_terms:ir.ui.view,arch_db:account_multicompany_easy_creation.wizard_multicompany_easy_creation_view_form
+msgid "Smart search to set product taxes"
+msgstr "Розумний пошук для встановлення податків товару"
+
+#. module: account_multicompany_easy_creation
+#: model_terms:ir.ui.view,arch_db:account_multicompany_easy_creation.wizard_multicompany_easy_creation_view_form
+msgid ""
+"Smart search to set specific accounts in products, categories, partners, ..."
+msgstr ""
+"Розумний пошук для встановлення конкретних рахунків у товарах, категоріях, "
+"партнерах тощо"
+
+#. module: account_multicompany_easy_creation
+#: model_terms:ir.ui.view,arch_db:account_multicompany_easy_creation.wizard_multicompany_easy_creation_view_form
+msgid "Smart search to set specific fiscal position in partners"
+msgstr ""
+"Розумний пошук для встановлення певної схеми оподаткування контрагентам"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__update_default_taxes
+msgid "Update Default Taxes"
+msgstr "Оновити податки за замовчуванням"
+
+#. module: account_multicompany_easy_creation
+#: model_terms:ir.ui.view,arch_db:account_multicompany_easy_creation.wizard_multicompany_easy_creation_view_form
+msgid "Update default taxes"
+msgstr "Оновити податки за замовчуванням"

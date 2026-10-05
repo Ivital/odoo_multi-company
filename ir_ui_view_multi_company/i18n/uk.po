@@ -17,3 +17,8 @@ msgstr ""
 #: model:ir.model.fields,field_description:ir_ui_view_multi_company.field_ir_ui_view__company_ids
 msgid "Companies"
 msgstr "Компанії"
+
+#. module: ir_ui_view_multi_company
+#: model:ir.model.fields,help:ir_ui_view_multi_company.field_ir_ui_view__company_ids
+msgid "This view is specific to these companies."
+msgstr "Це представлення специфічне для цих компаній."

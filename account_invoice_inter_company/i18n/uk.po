@@ -46,3 +46,37 @@ msgstr "Користувач рахунків"
 #: model:ir.model.fields,field_description:account_invoice_inter_company.field_account_move__auto_invoice_id
 msgid "Source Invoice"
 msgstr "Вихідний рахунок"
+
+#. module: account_invoice_inter_company
+#: model_terms:ir.ui.view,arch_db:account_invoice_inter_company.res_config_settings_view_form
+msgid ""
+"Automatically generate counterpart documents for orders/invoices between "
+"companies"
+msgstr ""
+"Автоматично створювати відповідні документи для замовлень/рахунків між "
+"компаніями"
+
+#. module: account_invoice_inter_company
+#: model_terms:ir.ui.view,arch_db:account_invoice_inter_company.res_config_settings_view_form
+msgid "Generate Intercompany Invoices"
+msgstr "Створити міжкомпанійні рахунки"
+
+#. module: account_invoice_inter_company
+#: model_terms:ir.ui.view,arch_db:account_invoice_inter_company.res_config_settings_view_form
+msgid "Inter Company OCA features"
+msgstr "Функції Inter Company OCA"
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,field_description:account_invoice_inter_company.field_res_company__invoice_auto_validation
+msgid "Invoice Auto Validation"
+msgstr "Автоматична перевірка рахунка"
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,field_description:account_invoice_inter_company.field_res_config_settings__invoice_auto_validation
+msgid "Invoices Auto Validation"
+msgstr "Автоматична перевірка рахунків"
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,field_description:account_invoice_inter_company.field_account_move_line__auto_invoice_line_id
+msgid "Source Invoice Line"
+msgstr "Початковий рядок рахунку"

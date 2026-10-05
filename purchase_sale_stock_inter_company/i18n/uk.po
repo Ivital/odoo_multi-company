@@ -36,3 +36,43 @@ msgstr "Синхронізувати переміщення"
 #: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_config_settings__notify_user_id
 msgid "User to Notify"
 msgstr "Користувач для сповіщення"
+
+#. module: purchase_sale_stock_inter_company
+#: model_terms:ir.ui.view,arch_db:purchase_sale_stock_inter_company.res_config_settings_view_form
+msgid "Block PO manual picking validation"
+msgstr "Блокувати ручну перевірку переміщення PO"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields.selection,name:purchase_sale_stock_inter_company.selection__res_company__sync_picking_failure_action__raise
+msgid "Block and raise error"
+msgstr "Заблокувати й викликати помилку"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields.selection,name:purchase_sale_stock_inter_company.selection__res_company__sync_picking_failure_action__notify
+msgid "Continue, but create activity to notify someone"
+msgstr "Продовжити, але створити активність для сповіщення когось"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_stock_picking__intercompany_picking_id
+msgid "Intercompany Picking"
+msgstr "Міжкомпанійне комплектування"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_config_settings__sync_picking
+msgid "Sync the receipt from the destination company with the delivery"
+msgstr "Синхронізувати приймання компанії-призначення з доставкою"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_company__sync_picking
+msgid "Sync the receipt with the delivery"
+msgstr "Синхронізувати приймання з доставкою"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_company__warehouse_id
+msgid "Warehouse For Sale Orders"
+msgstr "Склад для замовлень продажу"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_config_settings__warehouse_id
+msgid "Warehouse for Sale Orders"
+msgstr "Склад для замовлень продажу"

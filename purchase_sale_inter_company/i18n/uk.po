@@ -35,3 +35,28 @@ msgstr "Закупівля / продаж"
 #: model:ir.model.fields,field_description:purchase_sale_inter_company.field_res_config_settings__sale_auto_validation
 msgid "Sale Orders Auto Validation"
 msgstr "Автоматична перевірка замовлень на продаж"
+
+#. module: purchase_sale_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_inter_company.field_purchase_order_line__intercompany_sale_line_id
+msgid "Intercompany Sale Line"
+msgstr "Рядок міжкомпанійного продажу"
+
+#. module: purchase_sale_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_inter_company.field_purchase_order__intercompany_sale_order_id
+msgid "Intercompany Sale Order"
+msgstr "Міжкомпанійне замовлення на продаж"
+
+#. module: purchase_sale_inter_company
+#: model_terms:ir.ui.view,arch_db:purchase_sale_inter_company.res_config_settings_view_form
+msgid "Sale from purchase"
+msgstr "Продаж із закупівлі"
+
+#. module: purchase_sale_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_inter_company.field_sale_order__auto_purchase_order_id
+msgid "Source Purchase Order"
+msgstr "Початкове замовлення на закупівлю"
+
+#. module: purchase_sale_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_inter_company.field_sale_order_line__auto_purchase_line_id
+msgid "Source Purchase Order Line"
+msgstr "Вихідний рядок замовлення закупівлі"

@@ -23,3 +23,18 @@ msgstr "Тип міжкомпанійної операції"
 #: model_terms:ir.ui.view,arch_db:stock_intercompany.intercompany_res_config_settings_view_form
 msgid "Values set here are company-specific."
 msgstr "Значення, задані тут, є специфічними для компанії."
+
+#. module: stock_intercompany
+#: model:ir.model.fields,field_description:stock_intercompany.field_stock_move_line__counterpart_of_line_id
+msgid "Counterpart Of Line"
+msgstr "Кореспондуючий рядок"
+
+#. module: stock_intercompany
+#: model:ir.model.fields,field_description:stock_intercompany.field_stock_move__counterpart_of_move_id
+msgid "Counterpart Of Move"
+msgstr "Кореспондуючий рух"
+
+#. module: stock_intercompany
+#: model:ir.model.fields,field_description:stock_intercompany.field_stock_picking__counterpart_of_picking_id
+msgid "Counterpart Of Picking"
+msgstr "Кореспондуюче переміщення"
