@@ -1,0 +1,38 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 10:13+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_company__block_po_manual_picking_validation
+#: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_config_settings__block_po_manual_picking_validation
+msgid "Block manual validation of picking in the destination company"
+msgstr "Блокувати ручну перевірку комплектування в компанії призначення"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_company__sync_picking_failure_action
+#: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_config_settings__sync_picking_failure_action
+#: model_terms:ir.ui.view,arch_db:purchase_sale_stock_inter_company.res_config_settings_view_form
+msgid "On sync picking failure"
+msgstr "У разі помилки синхронізації комплектування"
+
+#. module: purchase_sale_stock_inter_company
+#: model_terms:ir.ui.view,arch_db:purchase_sale_stock_inter_company.res_config_settings_view_form
+msgid "Sync picking"
+msgstr "Синхронізувати переміщення"
+
+#. module: purchase_sale_stock_inter_company
+#: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_company__notify_user_id
+#: model:ir.model.fields,field_description:purchase_sale_stock_inter_company.field_res_config_settings__notify_user_id
+msgid "User to Notify"
+msgstr "Користувач для сповіщення"

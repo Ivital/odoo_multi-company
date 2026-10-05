@@ -73,3 +73,39 @@ msgstr "Батьківський шлях"
 #: model:ir.model.fields,field_description:res_company_category.field_res_company_category__type
 msgid "Type"
 msgstr "Тип"
+
+#. module: res_company_category
+#: model:ir.model.fields,field_description:res_company_category.field_res_company_category__child_ids
+msgid "Category Childs"
+msgstr "Дочірні категорії"
+
+#. module: res_company_category
+#: model:ir.model.fields,field_description:res_company_category.field_res_company_category__complete_name
+msgid "Complete Name"
+msgstr "Повна назва"
+
+#. module: res_company_category
+#: model:ir.model.fields,field_description:res_company_category.field_res_company_category__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: res_company_category
+#: model:ir.model.fields,field_description:res_company_category.field_res_company_category__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: res_company_category
+#: model:ir.model.fields.selection,name:res_company_category.selection__res_company_category__type__normal
+msgid "Normal"
+msgstr "Звичайний"
+
+#. module: res_company_category
+#: model:ir.model.fields,field_description:res_company_category.field_res_company_category__parent_id
+#: model_terms:ir.ui.view,arch_db:res_company_category.view_res_company_category_form
+msgid "Parent Category"
+msgstr "Батьківська категорія"
+
+#. module: res_company_category
+#: model:ir.model.fields.selection,name:res_company_category.selection__res_company_category__type__view
+msgid "View"
+msgstr "Перегляд"

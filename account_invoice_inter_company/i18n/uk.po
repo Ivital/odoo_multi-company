@@ -17,3 +17,32 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_invoice_inter_company.res_config_settings_view_form
 msgid "Invoice"
 msgstr "Рахунок-фактура"
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,field_description:account_invoice_inter_company.field_account_bank_statement_line__auto_generated
+#: model:ir.model.fields,field_description:account_invoice_inter_company.field_account_move__auto_generated
+msgid "Auto Generated Document"
+msgstr "Автоматично згенерований документ"
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,field_description:account_invoice_inter_company.field_res_company__intercompany_invoicing
+#: model:ir.model.fields,field_description:account_invoice_inter_company.field_res_config_settings__intercompany_invoicing
+msgid "Generate Inter company Invoices"
+msgstr "Генерувати міжкомпанійні рахунки"
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,field_description:account_invoice_inter_company.field_res_company__intercompany_invoice_user_id
+#: model:ir.model.fields,field_description:account_invoice_inter_company.field_res_config_settings__intercompany_invoice_user_id
+msgid "Inter Company Invoice User"
+msgstr "Користувач міжкомпанійного рахунку"
+
+#. module: account_invoice_inter_company
+#: model_terms:ir.ui.view,arch_db:account_invoice_inter_company.res_config_settings_view_form
+msgid "Invoices User"
+msgstr "Користувач рахунків"
+
+#. module: account_invoice_inter_company
+#: model:ir.model.fields,field_description:account_invoice_inter_company.field_account_bank_statement_line__auto_invoice_id
+#: model:ir.model.fields,field_description:account_invoice_inter_company.field_account_move__auto_invoice_id
+msgid "Source Invoice"
+msgstr "Вихідний рахунок"

@@ -92,3 +92,46 @@ msgstr "Користувачі"
 #: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_bank_wiz__wizard_id
 msgid "Wizard"
 msgstr "Майстер"
+
+#. module: account_multicompany_easy_creation
+#: model_terms:ir.ui.view,arch_db:account_multicompany_easy_creation.wizard_multicompany_easy_creation_view_form
+msgid "Accept"
+msgstr "Прийняти"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_bank_wiz__acc_number
+msgid "Account Number"
+msgstr "Номер рахунку"
+
+#. module: account_multicompany_easy_creation
+#: model_terms:ir.ui.view,arch_db:account_multicompany_easy_creation.wizard_multicompany_easy_creation_view_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__chart_template
+#: model_terms:ir.ui.view,arch_db:account_multicompany_easy_creation.wizard_multicompany_easy_creation_view_form
+msgid "Chart Template"
+msgstr "Шаблон плану рахунків"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_bank_wiz__write_uid
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_bank_wiz__write_date
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: account_multicompany_easy_creation
+#: model_terms:ir.ui.view,arch_db:account_multicompany_easy_creation.wizard_multicompany_easy_creation_view_form
+msgid "Sequences"
+msgstr "Послідовності"
+
+#. module: account_multicompany_easy_creation
+#: model:ir.model.fields,field_description:account_multicompany_easy_creation.field_account_multicompany_easy_creation_wiz__user_ids
+msgid "Users allowed"
+msgstr "Дозволені користувачі"

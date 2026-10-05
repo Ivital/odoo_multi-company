@@ -22,3 +22,8 @@ msgstr "Архівовано"
 #: model_terms:ir.ui.view,arch_db:res_company_search_view.view_res_company_search
 msgid "Country"
 msgstr "Країна"
+
+#. module: res_company_search_view
+#: model_terms:ir.ui.view,arch_db:res_company_search_view.view_res_company_search
+msgid "Group By"
+msgstr "Групувати за"
